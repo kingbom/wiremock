@@ -1,0 +1,9 @@
+version: '2'
+services:
+  wiremock:
+        ports:
+            - '8080:8080'
+        volumes:
+            - './mocks/users/stubs:/home/wiremock'
+        image: rodolpheche/wiremock
+        command: --disable-banner true --container-threads 1000 --verbose
