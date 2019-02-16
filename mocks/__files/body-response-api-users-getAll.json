@@ -1,0 +1,14 @@
+[
+  {
+   "fullName" : "Steve job",
+   "email" : "steve.job@mail.com"
+  },
+  {
+    "fullName" : "Mark zuckerberg",
+    "email" : "mark.zuckerberg@mail.com"
+   },
+   {
+    "fullName" : "Elon Musk",
+    "email" : "elon.musk@mail.com"
+   }
+]
